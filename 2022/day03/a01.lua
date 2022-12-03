@@ -6,17 +6,6 @@ local function readFile(filename)
     return content
 end
 
-local function splitLines(fileContent)
-    local sum
-    for line in fileContent:gmatch("[^\r\n]+") do
-        
-    end
-    return sum
-end
-
-local solution1 = splitLines(readFile("input03.txt"))
-
-print(solution1)
 
 local values = {
     a = 1,
@@ -73,5 +62,90 @@ local values = {
     Z = 52
 }
 
+local elfpack = {
 
-print(values.a)
+}
+local called = 0
+
+
+local function firstProblem(fileContent)
+    local sum = 0
+    local known = ""
+    for line in fileContent:gmatch("[^\r\n]+") do
+        local string1 = line:sub(1, (line:len(2)/2))
+        local string2 = line:sub(((line:len(2)/2)+1))
+        for i = 1, string.len(string1) do
+            local character = string.sub(string1, i, i)
+            if (string.find(string2, character) and not string.find(known, character)) then
+                sum = sum + values[character]
+            end
+            known = known .. character
+        end
+        known = ""
+    end
+    return sum
+end
+
+local function iteration(elf1, elf2, elf3)
+    for i = 1, string.len(elf1) do
+        local character = string.sub(elf1, i, i)
+        if (string.find(elf2, character) and string.find(elf3, character)) then
+            return values[character]
+        end
+    end
+    print(called)
+    called = called + 1
+    return 0
+end
+
+local function secondProblem(fileContent)
+    local sum = 0
+    local counter = 1
+    for line in fileContent:gmatch("[^\r\n]+") do
+        elfpack[counter] = line 
+        if (counter == 3) then
+            local elf1 = elfpack[1]
+            local elf2 = elfpack[2]
+            local elf3 = elfpack[3]
+            if ((string.len(elf1) > string.len(elf2)) and (string.len(elf1) > string.len(elf3))) then
+                long = elf1
+                if (string.len(elf2) > string.len(elf3)) then
+                    middel = elf2
+                    short = elf3
+                else
+                    middel = elf3
+                    short = elf2
+                end 
+            elseif ((string.len(elf2) > string.len(elf1)) and (string.len(elf2) > string.len(elf3))) then
+                long = elf2
+                if (string.len(elf1) > string.len(elf3)) then
+                    middel = elf1
+                    short = elf3
+                else 
+                    middel = elf3
+                    short = elf1
+                end
+            else
+                long = elf3
+                if (string.len(elf1) > string.len(elf2)) then
+                    middle = elf1
+                    short = elf2
+                else
+                    middel = elf2
+                    short = elf1
+                end
+            end
+            counter = 0
+            sum = sum + iteration(long, middel, short)
+        end
+        counter = counter + 1
+    end
+    return sum
+end
+
+local solution1 = firstProblem(readFile("input03.txt"))
+local solution2 = secondProblem(readFile("input03.txt"))
+
+
+print("solution1: ", solution1)
+print("solution2: ", solution2)
