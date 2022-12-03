@@ -1,0 +1,6 @@
+# 2022
+
+trying to use 25 different languages. 
+
+day01: python <br>
+day02: java
