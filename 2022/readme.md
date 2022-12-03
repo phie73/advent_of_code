@@ -3,4 +3,5 @@
 trying to use 25 different languages. 
 
 day01: python <br>
-day02: java
+day02: java <br>
+day03: lua
