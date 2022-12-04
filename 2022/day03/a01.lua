@@ -65,8 +65,6 @@ local values = {
 local elfpack = {
 
 }
-local called = 0
-
 
 local function firstProblem(fileContent)
     local sum = 0
@@ -93,8 +91,6 @@ local function iteration(elf1, elf2, elf3)
             return values[character]
         end
     end
-    print(called)
-    called = called + 1
     return 0
 end
 
@@ -107,36 +103,8 @@ local function secondProblem(fileContent)
             local elf1 = elfpack[1]
             local elf2 = elfpack[2]
             local elf3 = elfpack[3]
-            if ((string.len(elf1) > string.len(elf2)) and (string.len(elf1) > string.len(elf3))) then
-                long = elf1
-                if (string.len(elf2) > string.len(elf3)) then
-                    middel = elf2
-                    short = elf3
-                else
-                    middel = elf3
-                    short = elf2
-                end 
-            elseif ((string.len(elf2) > string.len(elf1)) and (string.len(elf2) > string.len(elf3))) then
-                long = elf2
-                if (string.len(elf1) > string.len(elf3)) then
-                    middel = elf1
-                    short = elf3
-                else 
-                    middel = elf3
-                    short = elf1
-                end
-            else
-                long = elf3
-                if (string.len(elf1) > string.len(elf2)) then
-                    middle = elf1
-                    short = elf2
-                else
-                    middel = elf2
-                    short = elf1
-                end
-            end
             counter = 0
-            sum = sum + iteration(long, middel, short)
+            sum = sum + iteration(elf1, elf2, elf3)
         end
         counter = counter + 1
     end
