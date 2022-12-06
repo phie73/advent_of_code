@@ -8,8 +8,6 @@ not finished, all done in python
 
 hopefully 25 different languages
 
-<a href="#">links text</a>
-
 
 | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day01/a01.py">day01_python</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day02/a01.java">day02_java</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day03/a01.lua">day03_lua</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day04/a01.jl">day04_julia</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day05/a01.php">day05_php</a> |
 | ---   | --- | --- | --- | --- |
