@@ -7,3 +7,4 @@ day02: java <br>
 day03: lua <br>
 day04: julia <br>
 day05: php <br>
+day06: racket <br>
