@@ -8,4 +8,4 @@ day03: ***lua*** Interssting starting counting with 1 never seen this before <br
 day04: ***julia*** I like this language <br>
 day05: php The only thing I knew in php is working with arrays :D <br>
 day06: racket, used it for the first time in the first semester of my computer science studies, remeberd it more complexe <br>
-day07: ***elixir***, idk regex would be nicer but got kind of confused by elixir but the pipe operator is kind of smart. never seen used stuff like this (expect from the terminal) <br>
+day07: ***elixir***, idk regex would be nicer but got kind of confused by elixir but the pipe operator is kind of smart. never seen stuff like this (expect from the terminal) <br>
