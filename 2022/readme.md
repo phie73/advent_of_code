@@ -11,3 +11,4 @@ day06: racket, used it for the first time in the first semester of my computer s
 day07: ***elixir***, idk regex would be nicer but got kind of confused by elixir but the pipe operator is kind of smart. never seen stuff like this (expect from the terminal) <br>
 day08: ***go***, interessting, I prefere a newline between the { and the for example if statement <br>
 day09: ***zig***, heard about zig as c with its problems solved. And in some aspects I agree. So definitely one of the new languages I consider using more. <br> 
+day10: latex (and python), coding in latex is painful <br>
