@@ -1,38 +1,93 @@
-{
-    \global\def\acycle{2}
-    \global\def\ncycle{1}
-    \global\def\fileName{simple.txt}
-}
-
-
-
-\documentclass[11pt,a4paper,oneside]{report}
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{xparse}
+\usepackage{listofitems}
+\usepackage{xfp}
+\usepackage{etoolbox}
+\usepackage{pgf}
 \usepackage{xstring}
-
-\newcommand{\mymacro}[1]{%
-    \StrLeft{#1}{4}[\firstletter]%
-    \StrRight{#1}{1}[\lastletter]%
-    First letter: \firstletter 
-
-    Last letter: \lastletter
+\usepackage{etex}
 
 
+\newcommand{\operation}[1]{%
+    \StrLeft{#1}{1}[\firstletter]%
+    \ifdefstring{\firstletter}{n}
+    {
+        \pgfmathsetmacro{\cycle}{\fpeval{1+\cycle}}
+        \evalCycle{\cycle}
+    }
+    {
+        \pgfmathsetmacro{\cycle}{\fpeval{1+\cycle}}
+        \evalCycle{\cycle}
+        \pgfmathsetmacro{\cycle}{\fpeval{1+\cycle}}
+        \evalCycle{\cycle}
+    }
 }
+
+\newcommand{\setNumber}[1]{%
+    \pgfmathsetmacro{\nr}{#1}
+}
+
+\newcommand{\evalCycle}[1]{%
+    \pgfmathsetmacro{\p}{#1}
+    \ifnum\p=20%
+        \pgfmathsetmacro{\signalStrength}{\fpeval{20*\points}}
+        \pgfmathsetmacro{\sum}{\fpeval{\sum+\signalStrength}} 
+    \fi%
+    \ifnum\p=60%
+        \pgfmathsetmacro{\signalStrength}{\fpeval{60*\points}}
+        \pgfmathsetmacro{\sum}{\fpeval{\sum+\signalStrength}} 
+    \fi%
+    \ifnum\p=100%
+        \pgfmathsetmacro{\signalStrength}{\fpeval{100*\points}}
+        \pgfmathsetmacro{\sum}{\fpeval{\sum+\signalStrength}} 
+    \fi%
+    \ifnum\p=140%
+        \pgfmathsetmacro{\signalStrength}{\fpeval{140*\points}}
+        \pgfmathsetmacro{\sum}{\fpeval{\sum+\signalStrength}} 
+    \fi%
+    \ifnum\p=180%
+        \pgfmathsetmacro{\signalStrength}{\fpeval{180*\points}}
+        \pgfmathsetmacro{\sum}{\fpeval{\sum+\signalStrength}} 
+    \fi%
+    \ifnum\p=220%
+        \pgfmathsetmacro{\signalStrength}{\fpeval{220*\points}}
+        \pgfmathsetmacro{\sum}{\fpeval{\sum+\signalStrength}} 
+    \fi%
+}
+
+\newcounter{cnt}
+\newcounter{ctr}
+\newcounter{help}
 
 \begin{document}
-    \acycle
+\pgfmathsetmacro{\points}{1}
+\pgfmathsetmacro{\cycle}{0}
+\pgfmathsetmacro{\sum}{0}
+\pgfmathsetmacro{\signalStrength}{0}
+\setcounter{ctr}{0}
 
     \newread\file
-    \openin\file=\fileName\relax
-        % \loop\unless\ifeof\file
-        %     \read\file to\fileline
-        %     \mymacro{\fileline}
-        % \repeat
-        \loop   
-        \read\file to \data 
-        \unless\ifeof\file                
-        \mymacro{\data}
-    \repeat
-    \closein\file
+    \openin\file=simple.txt
 
+    \loop\unless\ifeof\file%
+        \read\file to\input%
+        \setsepchar{ }%
+        \readlist*\foo{\input}%
+        \showitems\foo%
+        \setcounter{cnt}{1}%
+        \foreachitem\z\in\foo
+        {%
+            \ifnum\zcnt=1%
+                \operation{\foo[\zcnt]}
+            \fi%
+            \ifnum\zcnt=2%
+                \setNumber{\foo[\zcnt]}
+                \pgfmathsetmacro{\points}{\fpeval{\nr+\points}}
+            \fi%
+        }%
+        
+    \repeat%
+
+    helo: \sum
 \end{document}
