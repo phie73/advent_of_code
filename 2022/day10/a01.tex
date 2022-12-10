@@ -1,0 +1,38 @@
+{
+    \global\def\acycle{2}
+    \global\def\ncycle{1}
+    \global\def\fileName{simple.txt}
+}
+
+
+
+\documentclass[11pt,a4paper,oneside]{report}
+\usepackage{xstring}
+
+\newcommand{\mymacro}[1]{%
+    \StrLeft{#1}{4}[\firstletter]%
+    \StrRight{#1}{1}[\lastletter]%
+    First letter: \firstletter 
+
+    Last letter: \lastletter
+
+
+}
+
+\begin{document}
+    \acycle
+
+    \newread\file
+    \openin\file=\fileName\relax
+        % \loop\unless\ifeof\file
+        %     \read\file to\fileline
+        %     \mymacro{\fileline}
+        % \repeat
+        \loop   
+        \read\file to \data 
+        \unless\ifeof\file                
+        \mymacro{\data}
+    \repeat
+    \closein\file
+
+\end{document}
