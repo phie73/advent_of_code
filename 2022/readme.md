@@ -12,3 +12,4 @@ day07: ***elixir***, idk regex would be nicer but got kind of confused by elixir
 day08: ***go***, interessting, I prefere a newline between the { and the for example if statement <br>
 day09: ***zig***, heard about zig as c with its problems solved. And in some aspects I agree. So definitely one of the new languages I consider using more. <br> 
 day10: latex (and python), coding in latex is painful <br>
+day11: ***raku***, quite interessting <br>
