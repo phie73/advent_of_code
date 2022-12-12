@@ -13,3 +13,4 @@ day08: ***go***, interessting, I prefere a newline between the { and the for exa
 day09: ***zig***, heard about zig as c with its problems solved. And in some aspects I agree. So definitely one of the new languages I consider using more. <br> 
 day10: latex (and python), coding in latex is painful <br>
 day11: ***raku***, quite interessting <br>
+day12: ***OCaml***, no camel but idk I don't like languages that need to build a massive project like OCaml did, and I am not quite sure why my source file gets duplicated in _build/default/bin and even more confusing why do I find a main.exe in the same folder? I use Arch btw. 

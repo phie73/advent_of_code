@@ -1,0 +1,4 @@
+(executable
+ (public_name aocDay12)
+ (name main)
+ (libraries aocDay12 core str eio eio_main))
