@@ -14,6 +14,6 @@ day09: ***zig***, heard about zig as c with its problems solved. And in some asp
 day10: latex (and python), coding in latex is painful <br>
 day11: ***raku***, quite interessting <br>
 day12: ***OCaml***, no camel but idk I don't like languages that need to build a massive project like OCaml did, and I am not quite sure why my source file gets duplicated in _build/default/bin and even more confusing why do I find a main.exe in the same folder? I use Arch btw. <br>
-day13: ***haskell**, functional programming can be kind of confusing <br>
+day13: ***haskell***, functional programming can be kind of confusing <br>
 day14: ruby, have never done a lot in ruby but somehow touched this language before but idk <br>
 day15: ***perl***, felt like I should really thouch this language once <br>
