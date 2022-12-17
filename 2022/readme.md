@@ -18,3 +18,4 @@ day13: ***haskell***, functional programming can be kind of confusing <br>
 day14: ruby, have never done a lot in ruby but somehow touched this language before but idk <br>
 day15: ***perl***, felt like I should really thouch this language once <br>
 day16: ***c#***, yey another exe <br>
+day17: ***dart***, the most inefficient thing I have ever done (my brain is to dead and I am to lazy to come up with something smart for part2) <br>
