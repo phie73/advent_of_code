@@ -19,3 +19,5 @@ day14: ruby, have never done a lot in ruby but somehow touched this language bef
 day15: ***perl***, felt like I should really thouch this language once <br>
 day16: ***c#***, yey another exe <br>
 day17: ***dart***, the most inefficient thing I have ever done (my brain is to dead and I am to lazy to come up with something smart for part2) <br>
+day18: ***vim9script***, asking other people what language I should use today ends up in vba and vim9script so yeah <br>
+day19: ***scala***, scalable? a random guy on youtube told about scala is java in good, idk 
