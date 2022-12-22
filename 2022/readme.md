@@ -21,4 +21,7 @@ day16: ***c#***, yey another exe <br>
 day17: ***dart***, the most inefficient thing I have ever done (my brain is to dead and I am to lazy to come up with something smart for part2) <br>
 day18: ***vim9script***, asking other people what language I should use today ends up in vba and vim9script so yeah <br>
 day19: ***scala***, scalable? a random guy on youtube told about scala is java in good, idk <br>
-day20: ***easylang***, lol <a href="https://github.com/chkas/easylang">here you can find more</a>
+day20: ***easylang***, lol <a href="https://github.com/chkas/easylang">here you can find more</a> <br>
+day21: ***pascal***, hmpf another old language, first time I had that problem that the example input was working and I got an unhandeld execption, part B got me an off by one error, so at least it took me 21 days to get to that point :D, so to pascal a very old fashion language. <br>
+day22: C++, so after 2 days of vacation and not doing stuff in cpp for work I was missing doing stuff in this language so for today I had to use C++. (please read all of this with a little bit of irony in your mind) and pls don't blame me for the code I wrote <br>
+
