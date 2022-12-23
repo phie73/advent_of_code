@@ -24,4 +24,5 @@ day19: ***scala***, scalable? a random guy on youtube told about scala is java i
 day20: ***easylang***, lol <a href="https://github.com/chkas/easylang">here you can find more</a> <br>
 day21: ***pascal***, hmpf another old language, first time I had that problem that the example input was working and I got an unhandeld execption, part B got me an off by one error, so at least it took me 21 days to get to that point :D, so to pascal a very old fashion language. <br>
 day22: C++, so after 2 days of vacation and not doing stuff in cpp for work I was missing doing stuff in this language so for today I had to use C++. (please read all of this with a little bit of irony in your mind) and pls don't blame me for the code I wrote <br>
+day23: rust, idk how I should count this in terms of languages I know. But I like it.
 
