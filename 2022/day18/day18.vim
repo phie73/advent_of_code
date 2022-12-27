@@ -1,6 +1,6 @@
 vim9script
 
-var  input = readfile('/home/sophia/repos/advent_of_code/2022/day18/input.txt')
+var  input = readfile('/home/sophia/repos/advent_of_code/2022/day18/simple.txt')
 echo "hello world"
 var counter = 6 
 var surface_area = 0
