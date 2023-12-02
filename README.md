@@ -20,7 +20,7 @@ hopefully 25 different languages
 
 well 25 is almost 26 and the alphabet has 26 letters, so starting on A till the end.
 
-| <a href="https://github.com/phie73/advent_of_code/tree/master/2023/day01">Ada</a> | <a href="">b</a> | <a href="">c</a> | <a href="">d</a> | <a href="">e</a> |
+| <a href="https://github.com/phie73/advent_of_code/tree/master/2023/day01">Ada</a> | <a href="https://github.com/phie73/advent_of_code/blob/master/2023/day02/day02.bas">Basic</a> | <a href="">c</a> | <a href="">d</a> | <a href="">e</a> |
 | --- | --- | --- | --- | --- |
 | <a href="">f</a> | <a href="">g</a> | <a href="">h</a> | <a href=">i</a> | <a href="">j</a> |
 | <a href="">f</a> | <a href="">g</a> | <a href="">h</a> | <a href=">i</a> | <a href="">j</a> |
