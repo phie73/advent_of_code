@@ -1,33 +1,97 @@
 # advent of code
 
-## 2015
+(or my adventure through differrent programming languages)
 
-I wanted to learn some Ada. So just started 2015 in Ada.
+## A
 
-## 2021
+- Ada (2015_01, 2015_02, 2023_03)
 
-not finished, all done in python
+## B
 
-## 2022
+- Basic (2023_02)
 
-hopefully 25 different languages
+## C
 
+- C (2023_03, 2022_25)
+- C++ (2022_22)
+- C# (2022_16)
 
-| <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day01/a01.py">day01_python</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day02/a01.java">day02_java</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day03/a01.lua">day03_lua</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day04/a01.jl">day04_julia</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day05/a01.php">day05_php</a> |
-| --- | --- | --- | --- | --- |
-| <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day06/a01.rkt">day06_racket</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day07/a01.exs">day07_elixir</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day08/a01.go">day08_go</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day09/a01.zig">day09_zig</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day10/a01.pdf">day10_latex</a> |
-| <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day11/main.raku">day11_raku</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day12/aocDay12/bin/main.ml">day12_OCamel</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day13/main.hs">day13_haskell</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day14/day14.rb">day14_ruby</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day15/day15.pl">day15_perl</a> |
-| <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day16/day16.cs">day16_c#</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day17/h.dart">day17_dart</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day18/day18.vim">day18_vim9script</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day19/a01.sc">day19_scala</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day20/easy.txt">day20_easylang</a> |
-| <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day21/dto.pas">day21_pascal</a> | <a href="https://github.com/43-50ph14/advent_of_code/tree/master/2022/day22">day22_c++</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day23/day.rs">day23_rust</a> | <a href="">day24_</a> | <a href="https://github.com/43-50ph14/advent_of_code/blob/master/2022/day25/daytf.c">day25_c</a> |
+## D
 
-## 2023
+- D (2023_04)
+- Dart (2022_17)
 
-well 25 is almost 26 and the alphabet has 26 letters, so starting on A till the end.
+## E
 
-| <a href="https://github.com/phie73/advent_of_code/tree/master/2023/day01">Ada</a> | <a href="https://github.com/phie73/advent_of_code/blob/master/2023/day02/day02.bas">Basic</a> | <a href="https://github.com/phie73/advent_of_code/blob/master/2023/day03/day.c">C</a> | <a href="https://github.com/phie73/advent_of_code/blob/master/2023/day04/day.d">D</a> | <a href="">e</a> |
-| --- | --- | --- | --- | --- |
-| <a href="">f</a> | <a href="">g</a> | <a href="">h</a> | <a href=">i</a> | <a href="">j</a> |
-| <a href="">f</a> | <a href="">g</a> | <a href="">h</a> | <a href=">i</a> | <a href="">j</a> |
-| <a href="">f</a> | <a href="">g</a> | <a href="">h</a> | <a href=">i</a> | <a href="">j</a> |
-| <a href="">f</a> | <a href="">g</a> | <a href="">h</a> | <a href=">i</a> | <a href="">j</a> |
+- Easylang (2022_20)
+- Elixir (2022_07)
 
+## F
+
+## G
+
+- Go (2022_08)
+
+## H
+
+- Haskell (2022_13)
+
+## I
+
+## J
+
+- Java (2022_02)
+- Julia (2022_04)
+
+## K
+
+## L
+
+- Latex (2022_10)
+- Lua (2022_03)
+
+## M
+
+## N
+
+## O
+
+- OCamel (2022_12)
+
+## P
+
+- Pascal (2022_21)
+- Perl (2022_15)
+- PHP (2022_05)
+- Python (2021_01, 2022_01)
+
+## Q
+
+## R
+
+- Racket (2022_06)
+- Raku (2022_11)
+- Ruby (2022_14)
+- Rust (2022_23)
+
+## S
+
+- Scala (2022_19)
+
+## T
+
+## U
+
+## V
+
+- vim9script (2022_18)
+
+## W
+
+## X
+
+## Y 
+
+## Z
+
+- Zig (2022_09)
